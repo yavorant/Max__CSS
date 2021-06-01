@@ -1,9 +1,17 @@
 /*
- CSS rules to specify families:
 
+Linked google fonts:
 font-family: 'Anton', sans-serif;
 font-family: 'Antonio', sans-serif;
 font-family: 'Montserrat', sans-serif; 
+
+Colors pallet:
+RED ===> 
+    #ff1b68
+GREEN ===> 
+    #2ddf5c
+DARK GREEN ===>
+    #0e4f1f
 */
 
 * {
@@ -14,6 +22,78 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
+
+/* -+-+- HEADER -+-+- */
+
+.main-header {
+    background: #2ddf5c;
+    padding: 8px 16px;
+}
+
+.main-header nav {
+    display: inline-block;
+    text-align: right;
+    vertical-align: middle;
+    /* subtract little more of the width of div = 60.12px */
+    width: calc(100% - 75px);
+
+}
+
+.main-header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-header li {
+    display: inline-block;  
+    margin: 0 16px;
+}
+
+.main-header a {
+    text-decoration: none;
+    color: #0e4f1f;
+}    
+
+.main-header > div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-header__brand {
+    color: #0e4f1f;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.main-nav__item a {
+    font-weight: bold;
+    padding: 5px;
+}
+
+.main-nav__item a:hover,
+.main-nav__item a:active {
+    color: #fff;
+    border-bottom: 5px solid #fff;
+}
+
+.main-nav__item--cta a {
+    color: #fff;
+    background: #ff1b68;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active {
+    color: #ff1b68;
+    background: #fff;
+    border: none;
+}
+
+
+
 
 #product-owerview {
     background: #ff1b68;
