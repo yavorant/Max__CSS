@@ -1,0 +1,46 @@
+main {
+    margin: 3%;
+}
+
+.section-plans {
+    margin: 16px 15%;
+    padding: 3%;
+    border: 5px solid #0e4f1f;
+}
+
+.section-plans a {
+    text-decoration: none;
+}  
+
+.section-plans p {
+    color: #000;
+    background: #fff;
+    border: 2px solid #0e4f1f;
+    padding: 10px;
+}  
+
+.section-plans h2 {
+    color: #acacac;
+} 
+
+
+.section-plan__plus {
+    background: #d5ffdc;
+}
+
+.section-plan__free {
+
+}
+
+.section-plan__premium {
+    background: #0e4f1f;
+}
+
+.section-plan__plus h1,
+.section-plan__free h1 {
+    color: #000;
+}
+
+.section-plan__premium h1 {
+    color: #fff;
+}
