@@ -1,46 +1,66 @@
 main {
-    margin: 3%;
+    padding-top: 32px;
 }
 
-.section-plans {
-    margin: 16px 15%;
-    padding: 3%;
+.package {
+    width: 80%;
+    margin: 16px 0;
     border: 5px solid #0e4f1f;
+    border-left: none;
 }
 
-.section-plans a {
+.package:hover,
+.package:active {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-color: #ff5454;
+}
+
+.package a {
     text-decoration: none;
-}  
+    color: inherit; /* Set back default browser's color */
+    display: block; /* Anchor tag takes all space */
+    padding: 32px;
+}
 
-.section-plans p {
-    color: #000;
+.package__subtitle {
+    color: #979797;
+}
+
+.package__info {
+    padding: 16px;
+    border: 1px solid #0e4f1f;
+    font-size: 20px;
+    color: #0e4f1f;
     background: #fff;
-    border: 2px solid #0e4f1f;
-    padding: 10px;
-}  
-
-.section-plans h2 {
-    color: #acacac;
-} 
-
-
-.section-plan__plus {
-    background: #d5ffdc;
 }
 
-.section-plan__free {
-
+#plus {
+    background: rgba(213, 255, 220, 0.95);
 }
 
-.section-plan__premium {
-    background: #0e4f1f;
+#free {
+    background: rgba(234, 252, 237, 0.95);
+    float: right;
+    text-align: right;
+    border-right: none;
+    border-left: 5px solid #0e4f1f;
 }
 
-.section-plan__plus h1,
-.section-plan__free h1 {
-    color: #000;
+#free:hover,
+#free:active {
+    border-left-color: #ff5454;
 }
 
-.section-plan__premium h1 {
-    color: #fff;
+#premium {
+    background: rgba(14, 79, 31, 0.95);
+}
+
+#premium .package__title {
+    color: #bbb;
+}
+
+/* We create a div right after #free, section that have been floated, to clear float of a document for the next elements, 
+but using flexbox much cleaner solution: */
+.clearfix {
+    clear: both;
 }
