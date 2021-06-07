@@ -20,7 +20,8 @@ DARK GREEN ===>
     background: url("../images/freedom.jpg ");
     width: 100%;
     height: 528px;
-    padding: 10px;   
+    padding: 10px;  
+    position: relative; 
 }
 
 .section-title {
@@ -31,6 +32,9 @@ DARK GREEN ===>
 #product-overview h1 {
     color: white;
     font-family: 'Anton', sans-serif;
+    position: absolute;
+    left: 50px;
+    bottom: 200px;
 }
 
 .plan__list {
