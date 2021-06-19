@@ -1,5 +1,5 @@
 main {
-    padding-top: 32px;
+    padding-top: 2rem;
     
 }
 
@@ -15,7 +15,7 @@ main {
 
 .package {
     width: 80%;
-    margin: 16px 0;
+    margin: 1rem 0;
     border: 5px solid #0e4f1f;
     border-left: none;
     position: relative;
@@ -23,11 +23,11 @@ main {
 
 .package__badge {
     position: absolute;
-    margin: 20px;
-    padding: 8px;
+    margin: 1.3rem;
+    padding: .5rem;
     top: 0;
     right: 0;
-    font-size: 12px;
+    font-size: .8rem;
     color: #fff;
     background: #ff5454;
 }
@@ -42,7 +42,7 @@ main {
     text-decoration: none;
     color: inherit; /* Set back default browser's color */
     display: block; /* Anchor tag takes all space */
-    padding: 32px;
+    padding: 2rem;
 }
 
 .package__subtitle {
@@ -50,9 +50,9 @@ main {
 }
 
 .package__info {
-    padding: 16px;
+    padding: 1rem;
     border: 1px solid #0e4f1f;
-    font-size: 20px;
+    font-size: 1.3rem;
     color: #0e4f1f;
     background: #fff;
 }

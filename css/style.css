@@ -27,9 +27,8 @@ DARK GREEN ===>
     border: 5px dotted red; */
     /* background-image: radial-gradient(circle at 80% 10% , yellow, blue); */
     width: 100%;
-    height: 528px;
-    padding: 10px; 
-    margin-top: 43px; 
+    height: 33rem;
+    margin-top: 2.7rem; 
     position: relative; 
 }
 
@@ -42,8 +41,9 @@ DARK GREEN ===>
     color: white;
     font-family: 'Anton', sans-serif;
     position: absolute;
-    left: 50px;
-    bottom: 0;
+    left: 3%;
+    bottom: 5%;
+    width: 100%;
 }
 
 .plan__list {
@@ -55,8 +55,8 @@ DARK GREEN ===>
 .plan {
     background: #d5ffdc;
     text-align: center;
-    padding: 16px;
-    margin: 8px;
+    padding: 1rem;
+    margin: .5rem;
     display: inline-block;
     width: 30%;
     vertical-align: middle;
@@ -71,9 +71,9 @@ DARK GREEN ===>
 .plan__annotation {
     background: white;
     color: #19b84c;
-    padding: 8px;
+    padding: .5rem;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
-    border-radius: 8px;
+    border-radius: .5rem;
 }
 
 .plan__title {
@@ -99,20 +99,20 @@ DARK GREEN ===>
 }
 
 .plan__feature {
-    margin: 8px 0;
+    margin: .5rem 0;
 }
 
 /* -+-+-+- FEATURE SECTION -+-+-+- */
 
 #key-features {
     background: #ff1b68;
-    margin-top: 80px;
-    padding: 16px;
+    margin-top: 5rem;
+    padding: 1rem;
 }
 
 #key-features .section-title {
     color: white;
-    margin: 32px;
+    margin: 2rem;
 }
 
 .key-feature__list {
@@ -130,17 +130,17 @@ DARK GREEN ===>
 
 .key-feature__image {
     background: #ffcede;
-    width: 128px;
-    height: 128px;
+    width: 8rem;
+    height: 8rem;
     border: 2px solid #424242;
     border-radius: 50%;
     margin: auto;
-    padding: 20px;
+    padding: 1.3rem;
 }
 
 .key-feature__description {
     text-align: center;
     font-weight: bold;
     color: white;
-    font-size: 20px;
+    font-size: 1.3rem;
 }
