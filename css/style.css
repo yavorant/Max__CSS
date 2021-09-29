@@ -28,7 +28,7 @@ DARK GREEN ===>
     /* background-image: radial-gradient(circle at 80% 10% , yellow, blue); */
     width: 100vw;
     height: 33vh;
-    margin-top: 2.7rem; 
+
     position: relative; 
 }
 
@@ -47,7 +47,7 @@ DARK GREEN ===>
     font-size: 1.6rem;
 }
 
-@media (min-width: 40rem) and (min-height: 60rem) {
+@media (min-width: 40rem) and (min-height: 40rem) {
     #product-overview {
         height: 40vh;
         background-position: 50% 25%;
