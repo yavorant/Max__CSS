@@ -1,0 +1,35 @@
+/*
+Linked google fonts:
+font-family: 'Anton', sans-serif;
+font-family: 'Antonio', sans-serif;
+font-family: 'Montserrat', sans-serif; 
+
+Colors pallet:
+RED ===> 
+    #ff1b68
+GREEN ===> 
+    #2ddf5c
+DARK GREEN ===>
+    #0e4f1f
+*/
+
+
+/* -+-+-+- SOMETHINGS -+-+-+- */
+
+main {
+    padding-top: 1rem;
+}
+
+.signup-title {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #ff5454;
+}
+
+.signup-form label,
+.signup-form input,
+.signup-form select {
+    display: block;
+    margin-top: 1rem;
+    width: 100%;
+}
