@@ -1,9 +1,13 @@
-/*
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
+
+/*
 Linked google fonts:
 font-family: 'Anton', sans-serif;
-font-family: 'Antonio', sans-serif;
 font-family: 'Montserrat', sans-serif; 
+font-family: 'Roboto', sans-serif;
 
 Colors pallet:
 RED ===> 
@@ -23,7 +27,7 @@ html {
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif; 
     margin: 0;
 }
 
