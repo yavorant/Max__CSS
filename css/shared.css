@@ -2,6 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
+@font-face {
+    font-family: "AnonymousPro";
+    src: url(../fonts/Anonymous_Pro/AnonymousPro-Regular.ttf) format("truetype");
+    /* font-display: optional; */
+}
+
 
 /*
 Linked google fonts:
